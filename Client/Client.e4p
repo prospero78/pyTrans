@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project Client -->
+<!-- Saved: 2015-12-08, 22:10:24 -->
+<!-- Copyright (C) 2015 prospero78su, prospero.78.su@gmail.com -->
+<Project version="5.1">
+  <Language></Language>
+  <Hash>8e9c212288d2d8d009a925021855c4d3c1b674d5</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>PySide</ProjectType>
+  <Description>Клиентская часть сервера. Без сервера, разумеется, не работает.</Description>
+  <Version>0.1</Version>
+  <Author>prospero78su</Author>
+  <Email>prospero.78.su@gmail.com</Email>
+  <Eol index="3"/>
+  <Sources>
+    <Source>__init__.py</Source>
+    <Source>main.py</Source>
+    <Source>pakTransClient/__init__.py</Source>
+    <Source>pakTransClient/modTransClient.py</Source>
+    <Source>pakTransClient/pakController/__init__.py</Source>
+    <Source>pakTransClient/pakController/modController.py</Source>
+    <Source>pakTransClient/pakGui/__init__.py</Source>
+    <Source>pakTransClient/pakGui/modGui.py</Source>
+    <Source>pakTransClient/pakGui/pakWinConnect/Ui_resWinConnect.py</Source>
+    <Source>pakTransClient/pakGui/pakWinConnect/__init__.py</Source>
+    <Source>pakTransClient/pakGui/pakWinConnect/modWinConnect.py</Source>
+    <Source>pakTransClient/pakGui/pakWinConnect/resWinConnect.py</Source>
+    <Source>pakTransClient/pakGui/pakWinMain/Ui_resWinMain.py</Source>
+    <Source>pakTransClient/pakGui/pakWinMain/__init__.py</Source>
+    <Source>pakTransClient/pakGui/pakWinMain/modWinMain.py</Source>
+    <Source>pakTransClient/pakGui/pakWinMain/resWinMain.py</Source>
+  </Sources>
+  <Forms>
+    <Form>pakTransClient/pakGui/pakWinConnect/resWinConnect.ui</Form>
+    <Form>pakTransClient/pakGui/pakWinMain/resWinMain.ui</Form>
+  </Forms>
+  <Translations/>
+  <Resources/>
+  <Interfaces/>
+  <Others>
+    <Other>Client.api</Other>
+  </Others>
+  <MainScript>main.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+  </FiletypeAssociations>
+  <Documentation>
+    <DocumentationParams>
+      <dict>
+        <key>
+          <string>ERIC4API</string>
+        </key>
+        <value>
+          <dict>
+            <key>
+              <string>ignoreFilePatterns</string>
+            </key>
+            <value>
+              <list>
+                <string></string>
+              </list>
+            </value>
+            <key>
+              <string>includePrivate</string>
+            </key>
+            <value>
+              <bool>True</bool>
+            </value>
+            <key>
+              <string>languages</string>
+            </key>
+            <value>
+              <list>
+                <string>Python3</string>
+              </list>
+            </value>
+            <key>
+              <string>outputFile</string>
+            </key>
+            <value>
+              <string>Client.api</string>
+            </value>
+            <key>
+              <string>useRecursion</string>
+            </key>
+            <value>
+              <bool>True</bool>
+            </value>
+          </dict>
+        </value>
+        <key>
+          <string>ERIC4DOC</string>
+        </key>
+        <value>
+          <dict>
+            <key>
+              <string>ignoreFilePatterns</string>
+            </key>
+            <value>
+              <list>
+                <string></string>
+              </list>
+            </value>
+            <key>
+              <string>noempty</string>
+            </key>
+            <value>
+              <bool>True</bool>
+            </value>
+            <key>
+              <string>qtHelpEnabled</string>
+            </key>
+            <value>
+              <bool>False</bool>
+            </value>
+            <key>
+              <string>sourceExtensions</string>
+            </key>
+            <value>
+              <list>
+                <string></string>
+              </list>
+            </value>
+            <key>
+              <string>useRecursion</string>
+            </key>
+            <value>
+              <bool>True</bool>
+            </value>
+          </dict>
+        </value>
+      </dict>
+    </DocumentationParams>
+  </Documentation>
+</Project>
