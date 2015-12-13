@@ -7,25 +7,33 @@ TCP-сервер ожидает подключения клиентов.
 пилит не в потоке, где определяется, а в своём!!!
 '''
 
-from PySide import QtCore, QtNetwork
+import socketserver
 
-class clsTcpServer(QtNetwork.QTcpServer):
+class clsTcpServer(socketserver.TCPServer):
     def __init__(self, root):
         print('        clsTcpServer.__init__()')
         self.__root = root
-        self.adress = QtNetwork.QHostAddress()
-        self.port = 0
-        super(clsTcpServer, self).__init__()
-        self.connect(self, 
-                     QtCore.SIGNAL('run_tsp_server()'), 
-                     self.__run_tsp_server)
-        self.connect(self,  QtCore.SIGNAL('stop_tcp_server()'),  self.__stop)
+        self.adress = ''
+        self.port = 37523
+        self.listening = False
+        super(socketserver.TCPServer,  self)
     
-    @QtCore.Slot()
-    def __run_tsp_server(self):
+    def run(self):
         print('        clsTcpServer.listen()')
-        res = self.listen(adress = self.adress, port = self.port)
+        #port = 53352
+        #TODO: надо думать как красиво сделать обработку запросов.
+        self.listening = True
+        self.server_address = ('', 38572)
+        #self.serve_forever()
+        conn,  adr = self.get_request()
+        self.close()
+        self.listening=False
+        print('{conn}, {adr}'.format(conn,  adr))
     
-    def __stop(self):
+    def service_actions(self):
+        print('clsTcpServer.listen()')
+        #self.serve_forever()
+    
+    def stop(self):
         print('        clsTcpServer.close()')
         self.close()
