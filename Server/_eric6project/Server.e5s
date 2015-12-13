@@ -2,13 +2,14 @@
 <!DOCTYPE Session SYSTEM "Session-5.0.dtd">
 <!-- eric6 session file for project Server -->
 <!-- This file was generated automatically, do not edit. -->
-<!-- Saved: 2015-12-13, 14:12:10 -->
+<!-- Saved: 2015-12-13, 17:10:35 -->
 <Session version="5.0">
   <Filenames>
     <Filename cline="0" cindex="0" folds="" zoom="0">D:\pyTrans\Server\main.py</Filename>
-    <Filename cline="29" cindex="48" folds="" zoom="0">D:\pyTrans\Server\pakTransServ\pakControl\pakServerThread\modServerThread.py</Filename>
+    <Filename cline="32" cindex="49" folds="" zoom="0">D:\pyTrans\Server\pakTransServ\pakControl\pakServerThread\modServerThread.py</Filename>
+    <Filename cline="24" cindex="31" folds="" zoom="0">D:\pyTrans\Server\pakTransServ\pakControl\pakServerThread\pakTcpServer\modTcpServer.py</Filename>
   </Filenames>
-  <ActiveWindow cline="29" cindex="48">D:\pyTrans\Server\pakTransServ\pakControl\pakServerThread\modServerThread.py</ActiveWindow>
+  <ActiveWindow cline="32" cindex="49">D:\pyTrans\Server\pakTransServ\pakControl\pakServerThread\modServerThread.py</ActiveWindow>
   <Breakpoints/>
   <Watchexpressions/>
   <DebugInfo>
@@ -29,6 +30,9 @@
       <ExpandedItemName>D:\pyTrans\Server\pakTransServ</ExpandedItemName>
       <ExpandedItemName>D:\pyTrans\Server\pakTransServ\pakControl</ExpandedItemName>
       <ExpandedItemName>D:\pyTrans\Server\pakTransServ\pakControl\pakServerThread</ExpandedItemName>
+      <ExpandedItemName>D:\pyTrans\Server\pakTransServ\pakControl\pakServerThread\pakTcpServer</ExpandedItemName>
+      <ExpandedItemName>D:\pyTrans\Server\pakTransServ\pakControl\pakServerThread\pakTcpServer\modTcpServer.py</ExpandedItemName>
+      <ExpandedItemName>D:\pyTrans\Server\pakTransServ\pakControl\pakServerThread\pakTcpServer\modTcpServer.py@@12</ExpandedItemName>
       <ExpandedItemName>D:\pyTrans\Server\pakTransServ\pakControl\pakServerThread\modServerThread.py</ExpandedItemName>
       <ExpandedItemName>D:\pyTrans\Server\pakTransServ\pakControl\pakServerThread\modServerThread.py@@10</ExpandedItemName>
     </ProjectBrowserState>
