@@ -27,11 +27,12 @@ class clsServerThread(QtCore.QThread):
         print('      run 2()')    
         self.sleep(1)
         while self.running:
-            print('      clsServerThread running')    
+            if self.__TcpServer.isListening():
+                print('      clsServerThread listening')   
+            else:
+                print('      clsServerThread not listening')  
             self.sleep(3)
         else:
             print('      clsServerThread stopped')
             self.emit(QtCore.SIGNAL('stop_tcp_server()'))
             #self.__TcpServer.stop()
-        
-            
