@@ -4,9 +4,12 @@
 '''
 import sys
 
+from .pakTcpClient.modTcpClient import clsTcpClient
+
 class clsController:
     def __init__(self, root):
         self.__root = root
+        self.tcpClient = clsTcpClient(root)
         self.__cmd = {'show_winConnect':self.__show_winConnect, 
                       'connect':self.__connect, 
                       'exit_app':self.__exit_app}
@@ -19,6 +22,9 @@ class clsController:
     
     def __connect(self):
         print('clsControl.__connect()')
+        port = self.__root.Gui.winConnect.entPort.text()
+        ip = self.__root.Gui.winConnect.entIP.text()
+        self.tcpClient.connect(ip,  port)
         
     def run(self):
         self.__root.Gui.winMain.cmd = self.__cmd
