@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Session SYSTEM "Session-5.0.dtd">
+<!-- eric6 session file for project Client -->
+<!-- This file was generated automatically, do not edit. -->
+<!-- Saved: 2015-12-13, 11:06:05 -->
+<Session version="5.0">
+  <Filenames>
+    <Filename cline="13" cindex="18" folds="" zoom="0">D:\Ya.dsk\Личное\01_python\project_3\2015\pyTrans\Client\main.py</Filename>
+    <Filename cline="21" cindex="0" folds="" zoom="0">D:\Ya.dsk\Личное\01_python\project_3\2015\pyTrans\Client\pakTransClient\pakGui\pakWinMain\modWinMain.py</Filename>
+    <Filename cline="27" cindex="18" folds="" zoom="0">D:\Ya.dsk\Личное\01_python\project_3\2015\pyTrans\Client\pakTransClient\pakController\modController.py</Filename>
+  </Filenames>
+  <ActiveWindow cline="27" cindex="18">D:\Ya.dsk\Личное\01_python\project_3\2015\pyTrans\Client\pakTransClient\pakController\modController.py</ActiveWindow>
+  <Breakpoints/>
+  <Watchexpressions/>
+  <DebugInfo>
+    <CommandLine></CommandLine>
+    <WorkingDirectory></WorkingDirectory>
+    <Environment></Environment>
+    <ReportExceptions value="True"/>
+    <Exceptions/>
+    <IgnoredExceptions/>
+    <AutoClearShell value="True"/>
+    <TracePython value="False"/>
+    <AutoContinue value="True"/>
+    <CovexcPattern/>
+  </DebugInfo>
+  <Bookmarks/>
+  <ProjectBrowserStates>
+    <ProjectBrowserState name="sources">
+      <ExpandedItemName>D:\Ya.dsk\Личное\01_python\project_3\2015\pyTrans\Client\pakTransClient</ExpandedItemName>
+      <ExpandedItemName>D:\Ya.dsk\Личное\01_python\project_3\2015\pyTrans\Client\pakTransClient\pakController</ExpandedItemName>
+      <ExpandedItemName>D:\Ya.dsk\Личное\01_python\project_3\2015\pyTrans\Client\pakTransClient\pakController\modController.py</ExpandedItemName>
+      <ExpandedItemName>D:\Ya.dsk\Личное\01_python\project_3\2015\pyTrans\Client\pakTransClient\pakController\modController.py@@7</ExpandedItemName>
+      <ExpandedItemName>D:\Ya.dsk\Личное\01_python\project_3\2015\pyTrans\Client\pakTransClient\pakGui</ExpandedItemName>
+      <ExpandedItemName>D:\Ya.dsk\Личное\01_python\project_3\2015\pyTrans\Client\pakTransClient\pakGui\pakWinMain</ExpandedItemName>
+      <ExpandedItemName>D:\Ya.dsk\Личное\01_python\project_3\2015\pyTrans\Client\pakTransClient\pakGui\pakWinMain\modWinMain.py</ExpandedItemName>
+      <ExpandedItemName>D:\Ya.dsk\Личное\01_python\project_3\2015\pyTrans\Client\pakTransClient\pakGui\pakWinMain\modWinMain.py@@9</ExpandedItemName>
+      <ExpandedItemName>D:\Ya.dsk\Личное\01_python\project_3\2015\pyTrans\Client\main.py</ExpandedItemName>
+    </ProjectBrowserState>
+    <ProjectBrowserState name="forms"/>
+    <ProjectBrowserState name="resources"/>
+    <ProjectBrowserState name="translations"/>
+    <ProjectBrowserState name="interfaces"/>
+    <ProjectBrowserState name="others"/>
+  </ProjectBrowserStates>
+</Session>
