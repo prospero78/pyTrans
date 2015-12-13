@@ -1,0 +1,1 @@
+"d:\WinPython34\python-3.4.3\Scripts\pyside-uic" "resWinConnect.ui" -o "resWinConnect.py"
