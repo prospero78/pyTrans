@@ -1,0 +1,4 @@
+clsServerThread QtCore.QThread
+clsTcpServer QtNetwork.QTcpServer
+clsTransServ QtGui.QApplication
+clsWinMain QtGui.QMainWindow clsUiWinMain

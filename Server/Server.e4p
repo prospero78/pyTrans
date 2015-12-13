@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project Server -->
-<!-- Saved: 2015-12-13, 10:38:58 -->
+<!-- Saved: 2015-12-13, 14:04:44 -->
 <!-- Copyright (C) 2015 prospero78su, prospero.78.su@gmail.com -->
 <Project version="5.1">
   <Language></Language>
@@ -36,7 +36,9 @@
   <Translations/>
   <Resources/>
   <Interfaces/>
-  <Others/>
+  <Others>
+    <Other>Server.api</Other>
+  </Others>
   <MainScript>main.py</MainScript>
   <Vcs>
     <VcsType>None</VcsType>
@@ -52,6 +54,53 @@
     <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
     <FiletypeAssociation pattern="*.ui" type="FORMS"/>
   </FiletypeAssociations>
+  <Documentation>
+    <DocumentationParams>
+      <dict>
+        <key>
+          <string>ERIC4API</string>
+        </key>
+        <value>
+          <dict>
+            <key>
+              <string>ignoreFilePatterns</string>
+            </key>
+            <value>
+              <list>
+                <string></string>
+              </list>
+            </value>
+            <key>
+              <string>includePrivate</string>
+            </key>
+            <value>
+              <bool>True</bool>
+            </value>
+            <key>
+              <string>languages</string>
+            </key>
+            <value>
+              <list>
+                <string>Python3</string>
+              </list>
+            </value>
+            <key>
+              <string>outputFile</string>
+            </key>
+            <value>
+              <string>Server.api</string>
+            </value>
+            <key>
+              <string>useRecursion</string>
+            </key>
+            <value>
+              <bool>True</bool>
+            </value>
+          </dict>
+        </value>
+      </dict>
+    </DocumentationParams>
+  </Documentation>
   <Packagers>
     <PackagersParams>
       <dict>
