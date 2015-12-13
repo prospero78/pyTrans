@@ -1,0 +1,3 @@
+clsTransClient QtGui.QApplication
+clsWinConnect QtGui.QDialog Ui_Dialog
+clsWinMain QtGui.QMainWindow clsUiWinMain
