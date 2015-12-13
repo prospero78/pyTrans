@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project Server -->
+<!-- Saved: 2015-12-13, 10:38:58 -->
+<!-- Copyright (C) 2015 prospero78su, prospero.78.su@gmail.com -->
+<Project version="5.1">
+  <Language></Language>
+  <Hash>36066359f62e6a87e8f9759f43dad8870fc9ce10</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>PySide</ProjectType>
+  <Description>Серверная часть комплекса. Без клиента, разумеется, бесполезна)</Description>
+  <Version>0.1</Version>
+  <Author>prospero78su</Author>
+  <Email>prospero.78.su@gmail.com</Email>
+  <Eol index="3"/>
+  <Sources>
+    <Source>main.py</Source>
+    <Source>pakTransServ/__init__.py</Source>
+    <Source>pakTransServ/modTransServ.py</Source>
+    <Source>pakTransServ/pakControl/__init__.py</Source>
+    <Source>pakTransServ/pakControl/modControl.py</Source>
+    <Source>pakTransServ/pakControl/pakServerThread/__init__.py</Source>
+    <Source>pakTransServ/pakControl/pakServerThread/modServerThread.py</Source>
+    <Source>pakTransServ/pakControl/pakServerThread/pakTcpServer/__init__.py</Source>
+    <Source>pakTransServ/pakControl/pakServerThread/pakTcpServer/modTcpServer.py</Source>
+    <Source>pakTransServ/pakGui/__init__.py</Source>
+    <Source>pakTransServ/pakGui/modGui.py</Source>
+    <Source>pakTransServ/pakGui/pakWinMain/Ui_resWinMain.py</Source>
+    <Source>pakTransServ/pakGui/pakWinMain/__init__.py</Source>
+    <Source>pakTransServ/pakGui/pakWinMain/modWinMain.py</Source>
+    <Source>pakTransServ/pakGui/pakWinMain/resWinMain.py</Source>
+  </Sources>
+  <Forms>
+    <Form>pakTransServ/pakGui/pakWinMain/resWinMain.ui</Form>
+  </Forms>
+  <Translations/>
+  <Resources/>
+  <Interfaces/>
+  <Others/>
+  <MainScript>main.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+  </FiletypeAssociations>
+  <Packagers>
+    <PackagersParams>
+      <dict>
+        <key>
+          <string>CXFREEZE</string>
+        </key>
+        <value>
+          <dict>
+            <key>
+              <string>applicationIcon</string>
+            </key>
+            <value>
+              <string></string>
+            </value>
+            <key>
+              <string>baseName</string>
+            </key>
+            <value>
+              <string>Win32GUI</string>
+            </value>
+            <key>
+              <string>compress</string>
+            </key>
+            <value>
+              <bool>True</bool>
+            </value>
+            <key>
+              <string>initScript</string>
+            </key>
+            <value>
+              <string>Console3</string>
+            </value>
+            <key>
+              <string>optimize</string>
+            </key>
+            <value>
+              <int>2</int>
+            </value>
+            <key>
+              <string>script</string>
+            </key>
+            <value>
+              <string>D:\WinPython34\python-3.4.3\Scripts\cxfreeze.bat</string>
+            </value>
+          </dict>
+        </value>
+      </dict>
+    </PackagersParams>
+  </Packagers>
+  <Checkers>
+    <CheckersParams>
+      <dict>
+        <key>
+          <string>Pep8Checker</string>
+        </key>
+        <value>
+          <dict>
+            <key>
+              <string>CopyrightAuthor</string>
+            </key>
+            <value>
+              <string>ptospero78su</string>
+            </value>
+            <key>
+              <string>CopyrightMinFileSize</string>
+            </key>
+            <value>
+              <int>0</int>
+            </value>
+            <key>
+              <string>DocstringType</string>
+            </key>
+            <value>
+              <string>pep257</string>
+            </value>
+            <key>
+              <string>ExcludeFiles</string>
+            </key>
+            <value>
+              <string></string>
+            </value>
+            <key>
+              <string>ExcludeMessages</string>
+            </key>
+            <value>
+              <string>E123,E226,E24,N808, D113</string>
+            </value>
+            <key>
+              <string>FixCodes</string>
+            </key>
+            <value>
+              <string></string>
+            </value>
+            <key>
+              <string>FixIssues</string>
+            </key>
+            <value>
+              <bool>False</bool>
+            </value>
+            <key>
+              <string>FutureChecker</string>
+            </key>
+            <value>
+              <string></string>
+            </value>
+            <key>
+              <string>HangClosing</string>
+            </key>
+            <value>
+              <bool>False</bool>
+            </value>
+            <key>
+              <string>IncludeMessages</string>
+            </key>
+            <value>
+              <string></string>
+            </value>
+            <key>
+              <string>MaxCodeComplexity</string>
+            </key>
+            <value>
+              <int>10</int>
+            </value>
+            <key>
+              <string>MaxLineLength</string>
+            </key>
+            <value>
+              <int>79</int>
+            </value>
+            <key>
+              <string>NoFixCodes</string>
+            </key>
+            <value>
+              <string>E501</string>
+            </value>
+            <key>
+              <string>RepeatMessages</string>
+            </key>
+            <value>
+              <bool>False</bool>
+            </value>
+            <key>
+              <string>ShowIgnored</string>
+            </key>
+            <value>
+              <bool>False</bool>
+            </value>
+            <key>
+              <string>ValidEncodings</string>
+            </key>
+            <value>
+              <string>latin-1, utf-8</string>
+            </value>
+          </dict>
+        </value>
+      </dict>
+    </CheckersParams>
+  </Checkers>
+</Project>
