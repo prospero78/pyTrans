@@ -1,1 +1,5 @@
 *.db
+/Client.e4q
+/Client.e5s
+/Client.e6t
+/TimeTracker.txt
