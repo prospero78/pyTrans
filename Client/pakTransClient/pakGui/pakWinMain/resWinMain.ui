@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>458</width>
+    <height>281</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>pyTransClient</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>458</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Сервер</string>
+    </property>
+    <addaction name="mnuConnect"/>
+    <addaction name="action_2"/>
+    <addaction name="separator"/>
+    <addaction name="mnuExit"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="mnuConnect">
+   <property name="text">
+    <string>Подключиться</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>Отключиться</string>
+   </property>
+  </action>
+  <action name="mnuExit">
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
