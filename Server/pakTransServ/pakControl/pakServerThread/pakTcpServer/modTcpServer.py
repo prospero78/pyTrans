@@ -16,12 +16,15 @@ class clsTcpServer(QtNetwork.QTcpServer):
         self.adress = QtNetwork.QHostAddress()
         self.port = 0
         super(clsTcpServer, self).__init__()
-        self.connect(self, QtCore.SIGNAL('run_tsp_server()'), self.__run)
+        self.connect(self, 
+                     QtCore.SIGNAL('run_tsp_server()'), 
+                     self.__run_tsp_server)
         self.connect(self,  QtCore.SIGNAL('stop_tcp_server()'),  self.__stop)
     
-    def __run(self):
+    @QtCore.Slot()
+    def __run_tsp_server(self):
+        print('        clsTcpServer.listen()')
         res = self.listen(adress = self.adress, port = self.port)
-        print('        clsTcpServer.listen()='), res
     
     def __stop(self):
         print('        clsTcpServer.close()')
