@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MultiProject SYSTEM "MultiProject-5.1.dtd">
+<!-- eric6 multi project file for multi project pyTrans -->
+<!-- Saved: 2015-12-13, 11:06:36 -->
+<!-- Copyright (C) 2015 -->
+<MultiProject version="5.1">
+  <Description>pyTrans</Description>
+  <Projects>
+    <Project isMaster="True" uid="{99fb6096-be61-43e3-b8dd-949727eb3436}">
+      <ProjectName>Server</ProjectName>
+      <ProjectFile>Server/Server.e4p</ProjectFile>
+      <ProjectDescription></ProjectDescription>
+      <ProjectCategory></ProjectCategory>
+    </Project>
+    <Project isMaster="False" uid="{d3ea33b6-2b1e-4541-b891-b773528c717d}">
+      <ProjectName>Client</ProjectName>
+      <ProjectFile>Client/Client.e4p</ProjectFile>
+      <ProjectDescription></ProjectDescription>
+      <ProjectCategory></ProjectCategory>
+    </Project>
+  </Projects>
+</MultiProject>
