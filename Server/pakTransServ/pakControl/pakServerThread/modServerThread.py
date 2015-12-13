@@ -22,17 +22,16 @@ class clsServerThread(QtCore.QThread):
         self.__TcpServer.port = int(self.__root.Gui.winMain.entPort.text())
         print('      run 1()')    
         self.sleep(1)
-        #self.__TcpServer.run()
-        self.emit(QtCore.SIGNAL('run_tcp_server()'))
+        self.__TcpServer.run()
         print('      run 2()')    
         self.sleep(1)
         while self.running:
-            if self.__TcpServer.isListening():
+            if self.__TcpServer.listening:
                 print('      clsServerThread listening')   
             else:
                 print('      clsServerThread not listening')  
             self.sleep(3)
         else:
             print('      clsServerThread stopped')
-            self.emit(QtCore.SIGNAL('stop_tcp_server()'))
+            self.__TcpServer.stop()
             #self.__TcpServer.stop()
